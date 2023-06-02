@@ -17,6 +17,7 @@ export default component$<InputProps>((props) => {
             }
 
             props.calculateResults$.forEach(async (calculateResult, index) => {
+                // @ts-ignore
                 const result = await calculateResult(e.target!.value);
 
                 const setResult = props.setResults$![index];
