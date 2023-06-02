@@ -1,4 +1,5 @@
-import { QRL, Signal, component$ } from "@builder.io/qwik";
+import { Signal, component$ } from "@builder.io/qwik";
+import type { QRL } from "@builder.io/qwik";
 
 import CustomInput from "../custom-input/custom-input";
 

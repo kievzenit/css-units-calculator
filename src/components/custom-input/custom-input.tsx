@@ -1,4 +1,5 @@
-import { component$, QRL, Signal, } from "@builder.io/qwik";
+import { component$, Signal, } from "@builder.io/qwik";
+import { type QRL } from "@builder.io/qwik";
 
 import styles from "./custom-input.module.scss";
 
