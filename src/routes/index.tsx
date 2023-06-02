@@ -1,4 +1,4 @@
-import { $, component$, useSignal, useStylesScoped$, useTask$, } from '@builder.io/qwik';
+import { $, component$, useSignal, useStylesScoped$, } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
 
 import CustomInput from '~/components/custom-input/custom-input';
