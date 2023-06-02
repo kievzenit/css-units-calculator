@@ -3,6 +3,7 @@ import { QwikCityProvider, RouterOutlet, ServiceWorkerRegister } from '@builder.
 import { RouterHead } from './components/router-head/router-head';
 
 import './styles/reset.css';
+import './styles/global.css';
 
 export default component$(() => {
   /**
