@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+.text {
+    font-size: .5rem;
+    line-height: .6rem;
+
+    color: var(--color-black);
+}
