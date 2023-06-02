@@ -1,0 +1,43 @@
+.background {
+    display: grid;
+    place-items: center;
+
+    height: 100vh;
+    width: 100vw;
+
+    overflow: hidden;
+
+    background: var(--color-light-gray);
+}
+
+.main,
+.wrapper,
+.top-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    width: 18rem;
+    gap: 4rem;
+}
+
+.wrapper {
+    gap: 2rem;
+}
+
+.top-wrapper {
+    gap: .4rem;
+}
+
+.top-inputs-container {
+    display: flex;
+    gap: .8rem;
+}
+
+.bottom-inputs-container {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 .4rem;
+}
