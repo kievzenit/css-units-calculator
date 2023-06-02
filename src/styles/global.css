@@ -4,3 +4,11 @@
     --color-light-gray: #E4E4E4;
     --color-dark-gray: #7B7B7B;
 }
+
+* {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
